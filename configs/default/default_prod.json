@@ -1,0 +1,17 @@
+{
+    "__type__": "GlobalConfiguration",
+    "n_events": 100,
+    "n_jobs": 10,
+    "geometry": "nd_hall_mpd_only_ECal12sides_42l_SPY_v3_wMuID_rad200.gdml",
+    "mail": false,
+    "memory": "3500MB",
+    "disk": "3GB",
+    "lifetime": "2h",
+    "cpu": 1,
+    "resources": ["DEDICATED", "OPPORTUNISTIC"],
+    "enable_gevgen": true,
+    "enable_edepsim": false,
+    "enable_garsoft": true,
+    "outpath": "/vols/dune/nk3717/GArJobSubMaker/autojobsubtest",
+    "defaults": "./"
+}

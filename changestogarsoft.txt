@@ -1,0 +1,9 @@
+In order to change garsoft to readout a smaller instrumented tpc, we must change Geometry/ChannelMapAlgs/AliTPCROC.cxx
+
+For a 200cm radius, we change the file to have only IROCs instrumented and the first layer of OROCs. Change fNRows[1]=66, kOuterRadiusUp = 198.7, kRowUp2=0, kRowUp=64. Float_t x = firstrow + fOuter2PadPitchLength*(Float_t)(i-fNRowUp1);
+
+Change DetectorInfo/DetectorProperties.fcl to set the magnetic field strength
+
+Change line 125-126 in Geometry/Geometry.fcl to set the correct gdml for the geometry
+
+
